@@ -1,0 +1,9 @@
+<ifModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteRule ^exepdo/pdo-Partie-2/views/profil-patient.php$ hospitale2n/profil/nom-prenom.html
+
+    ErrorDocument 404     /error/404.php
+
+ </ifModule>

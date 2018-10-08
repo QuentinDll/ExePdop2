@@ -1,0 +1,131 @@
+/* Index */
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* Navbar */
+#nav-full{
+    background-color: #2d3047;
+}
+#nav-full .navbar-brand{
+    color: #FFF !important;
+}
+#nav-full .navbar-brand:hover{
+    color: #E0777D !important;
+}
+#nav-sm{
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    width: 100%;
+}
+#nav-sm .nav-link{
+    color: #000 !important;
+}
+#nav-sm .nav-link:hover{
+    color: #E0777D !important;
+}
+
+/* Content */
+#carouselExampleControls{
+    margin-top: 35px;
+    height: 1000px;
+}
+#carouselExampleControls img{
+    margin-top: 35px;
+    height: 800px;
+}
+.page{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin-top: 50px;
+}
+.jumbotron{
+    background-color: #8ec5fc;
+}
+#go-create{
+    height: 100px;
+    width: 500px;
+    box-shadow: 1px 1px 10px #e0777d;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#redir-add{
+    text-decoration: none;
+    color:#2d3047;
+}
+#redir-add:hover{
+    color:#E0777D;
+}
+#div-form{
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #e0777d, 0 4px 20px 0 #e0777d;
+}
+#div-side-form{
+    margin-left: 400px;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #e0777d, 0 4px 20px 0 #e0777d;
+}
+#btn-form{
+    background-color: #2d3047;
+    color: #FFF;
+    border-color: #FFF;
+}
+#btn-form:hover{
+    background-color: #67b7e5;
+    color: #000;
+    border-color: #000;
+}
+#profil-div{
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 #e0777d, 0 4px 20px 0 #e0777d;
+}
+
+/* Table */
+.data:hover{
+    cursor: pointer;
+}
+.header, .main-block .footer{
+    display: table-row;
+}
+table tbody tr td a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+}
+table tbody tr td a:hover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:#000;
+}
+
+/* Footer */
+.footer{
+    margin-top: 200px;
+}
+.footer-title{
+    background-color: #e0777d;
+}
+.footer-link{
+    background-color: #a1e8af;
+}
+.footer-copyright{
+    background-color: #2d3047;
+    color: #FFF;
+}
+footer a{
+    color: #000;
+}
+footer a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
